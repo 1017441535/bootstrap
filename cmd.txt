@@ -1,0 +1,47 @@
+cd 目录名   进入目录
+cd ..      进入上一级
+cd .       进入当前目录
+
+mkdir 目录名    创建一个目录
+rmdir 目录名    删除一个目录
+
+cls        清屏         clear
+ctrl + c   终止进程
+
+
+用户名密码输入错误 处理
+控制面板 --->  用户账户  --->  管理windows凭据 --->  普通凭据
+
+git config --global user.email "邮箱地址"
+git config --global user.name "你名字"
+
+git init 生成一个本地仓库
+
+git add 文件名
+git add .  上传所有文件
+
+git status  查看暂存区文件状态
+
+git commit -m 提交说明      将暂存区内的文件 提交到本地仓库
+
+git remote add 远程仓库名 远程仓库地址
+git remote -v 检查远程仓库
+
+git push 仓库名 who
+
+版本控制
+
+git log 查看所有版本号
+
+git reset --hard 版本号   回退到指定ID的版本
+
+git reflog  查看所有操作
+
+分支操作
+
+git branch 分支名    创建一个新分支
+
+git checkout 分支名  切换分支
+
+git branch -d 分支名   删除分支（警告）
+git branch -D 分支名   强制删除分支
